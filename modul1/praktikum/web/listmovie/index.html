@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav menu -->
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <div class="circle"></div>
+        </div>
+        <div class="column">
+          <div class="circle">
+            <img src="https://siswahosting.com/files/mobile/magnifying-glass.png" width="70%" height="70%">
+          </div>
+        </div>
+      </div>
+      <!-- menu -->
+      <div class="row">
+        <div class="column">
+          <h1>Trending Now</h1>
+        </div>
+        <div class="column">
+          <a href="#">See All</a>
+        </div>
+      </div>
+      <!-- end menu -->
+      <!-- box -->
+      <div class="row image-slider">
+        <div class="box" style="background: url(
+								
+								<path-to-image>), lightgray 50% / cover no-repeat;">
+          <h5 class="slider">Avengers: End Game</h5>
+        </div>
+        <div class="box" style="background: url(
+									
+									<path-to-image>), lightgray 50% / cover no-repeat;">
+          <h5 class="slider">Avengers: End Game</h5>
+        </div>
+      </div>
+      <!-- end box -->
+      <!-- menu 2 -->
+      <div class="row">
+        <div class="column">
+          <h1>New Movies</h1>
+        </div>
+        <div class="column">
+          <a href="#">See All</a>
+        </div>
+      </div>
+      <!-- end menu 2 -->
+      <!-- box -->
+      <div class="row image-slider">
+        <div class="box" style="background: url(
+										
+										<path-to-image>), lightgray 50% / cover no-repeat;">
+          <h5 class="slider">Avengers: End Game</h5>
+        </div>
+        <div class="box" style="background: url(
+											
+											<path-to-image>), lightgray 50% / cover no-repeat;">
+          <h5 class="slider">Avengers: End Game</h5>
+        </div>
+      </div>
+      <!-- end box -->
+      <!-- menu 3 -->
+      <div class="row">
+        <div class="column">
+          <h1>Series</h1>
+        </div>
+        <div class="column">
+          <a href="#">See All</a>
+        </div>
+      </div>
+      <!-- end menu 3 -->
+      <!-- box -->
+      <div class="row image-slider">
+        <div class="box" style="background: url(
+                                                
+												<path-to-image>), lightgray 50% / cover no-repeat;">
+          <h5 class="slider">Avengers: End Game</h5>
+        </div>
+        <div class="box" style="background: url(
+                                                    
+													<path-to-image>), lightgray 50% / cover no-repeat;">
+          <h5 class="slider">Avengers: End Game</h5>
+        </div>
+      </div>
+      <!-- end box -->
+    </div>
+
+    <div class="bottom-nav">
+      <div class="row content-nav">
+        <div class="column"><img src="/house.svg"></div>
+        <div class="column"><img src="/heart.svg"></div>
+        <div class="column"><img src="/download.svg"></div>
+        <div class="column"><img src="/film.svg"></div>
+      </div>
+    </div>
+
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        color: #FFF;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .column a {
+        color: #9A9A9A;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .circle {
+        background-color: #D9D9D9;
+        width: 47px;
+        height: 46px;
+        flex-shrink: 0;
+        border-radius: 25px;
+      }
+
+      .column {
+        align-self: center;
+      }
+
+      .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        width: 150px;
+        height: 222px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 5px;
+        border-radius: 10px;
+        background-image: url("https://m.media-amazon.com/images/I/91zzAMkVCUL._AC_UF894,1000_QL80_.jpg")!important;
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); 
+      }
+
+
+
+      .image-slider {
+        display: flex;
+      }
+
+      .column h1{
+        padding: 10px;
+      }
+
+      .slider {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.588);
+        margin-bottom: 0px;
+        padding: 10px;
+      }
+
+      .bottom-nav{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        backdrop-filter: blur(2px);
+        background: rgba(54, 54, 54, 0.60);
+        color: white;
+        text-align: center;
+      }
+
+      .content-nav{
+        display: flex;
+        justify-content: space-around;
+      }
+
+    </style>
+  </body>
+</html>

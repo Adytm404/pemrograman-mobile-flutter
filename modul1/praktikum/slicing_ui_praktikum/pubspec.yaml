@@ -1,0 +1,28 @@
+name: slicing_ui_praktikum
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+  image_picker: ^0.8.6
+  path_provider: ^2.0.5
+  permission_handler: ^10.4.0
+
+flutter: 
+  assets:
+    - lib/app/data/movies.json
+  uses-material-design: true
+
