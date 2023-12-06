@@ -1,9 +1,9 @@
-//add todo screen
+import 'package:appwrite/models.dart';
 import 'package:flutter/material.dart';
-import 'package:get/route_manager.dart';
 import 'package:note_keep/helpers/database_helper.dart';
 import 'package:note_keep/providers/todo_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:image_picker/image_picker.dart';
 
 class AddTodoScreen extends StatefulWidget {
   const AddTodoScreen({super.key});
@@ -14,14 +14,17 @@ class AddTodoScreen extends StatefulWidget {
 
 class _AddTodoScreenState extends State<AddTodoScreen> {
   late TodoProvider todoProvider;
+  final _formKey = GlobalKey<FormState>();
+  String _title = '';
+  String _description = '';
+  File? _selectedImage;
+
+  @override
   void initState() {
     todoProvider = Provider.of<TodoProvider>(context, listen: false);
     super.initState();
   }
 
-  final _formKey = GlobalKey<FormState>();
-  String _title = '';
-  String _description = '';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,30 +61,42 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
               ElevatedButton(
                 onPressed: () async {
                   if (_formKey.currentState!.validate()) {
-                    //save the form
                     _formKey.currentState!.save();
-                    //navigate to home screen
                     try {
-                      bool result = await DatabaseHelper.instance
-                          .createTodo(title: _title, description: _description);
+                        if (_selectedImage != null) {
+                          await DatabaseHelper.instance.uploadImageToAppwrite(_selectedImage! as File);
+                        }
+
+
+                      bool result = await DatabaseHelper.instance.createTodo(
+                        title: _title,
+                        description: _description,
+                      );
+
                       if (result) {
                         getData();
-                        // ignore: use_build_context_synchronously
                         ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                                content: Text("Added todo successfully")));
+                          const SnackBar(
+                            content: Text("Added todo successfully"),
+                          ),
+                        );
                       }
                     } catch (e) {
-                      //snackbar
-                      ScaffoldMessenger.of(context)
-                          .showSnackBar(SnackBar(content: Text(e.toString())));
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(e.toString()),
+                        ),
+                      );
                     }
                   }
-
                   Navigator.pop(context);
                 },
                 child: const Text("Add Todo"),
-              )
+              ),
+              ElevatedButton(
+                onPressed: _selectImage,
+                child: const Text("Select Image"),
+              ),
             ],
           ),
         ),
@@ -92,4 +107,15 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
   void getData() async {
     await todoProvider.getTodo();
   }
+
+    Future<void> _selectImage() async {
+      final ImagePicker _picker = ImagePicker();
+      final XFile? result = await _picker.pickImage(source: ImageSource.gallery);
+      if (result != null) {
+        setState(() {
+          _selectedImage = File as File?;
+        });
+      }
+    }
+
 }

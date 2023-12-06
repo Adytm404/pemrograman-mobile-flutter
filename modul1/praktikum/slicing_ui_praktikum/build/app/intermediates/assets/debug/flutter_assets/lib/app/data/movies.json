@@ -1,0 +1,28 @@
+{
+    "film1": {
+      "Film": "The Avengers",
+      "Tahun": 2012,
+      "Thumbnail": "https://m.media-amazon.com/images/I/91zzAMkVCUL._AC_UF894,1000_QL80_.jpg"
+    },
+    "film2": {
+      "Film": "Guardians of the Galaxy",
+      "Tahun": 2014,
+      "Thumbnail": "https://lumiere-a.akamaihd.net/v1/images/id-guardiansofthegalaxy-vol3-payoffposter_6ba5c28b.jpeg"
+    },
+    "film3": {
+      "Film": "Black Panther",
+      "Tahun": 2018,
+      "Thumbnail": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg"
+    },
+    "film4": {
+      "Film": "Spider-Man: Homecoming",
+      "Tahun": 2017,
+      "Thumbnail": "https://www.sonypictures.co.uk/sites/unitedkingdom/files/2020-12/spider_man_homecoming_rating_0.jpg"
+    },
+    "film5": {
+      "Film": "Iron Man",
+      "Tahun": 2008,
+      "Thumbnail": "https://i.ebayimg.com/images/g/2aYAAOSwfzZgOAIX/s-l1600.jpg"
+    }
+  }
+  

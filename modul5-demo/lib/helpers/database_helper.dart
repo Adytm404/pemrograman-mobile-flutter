@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:appwrite/appwrite.dart';
 import 'package:appwrite/models.dart';
 import 'package:note_keep/helpers/auth_helper.dart';
@@ -23,16 +24,17 @@ class DatabaseHelper {
     try {
       String? userId = await AuthHelper.instance.getUserId();
       await databases!.createDocument(
-          databaseId: "65671ce4524d3c09c423",
-          collectionId: "65671d00adc039c8d679",
-          documentId: ID.unique(),
-          data: {
-            "title": title,
-            "description": description,
-            "isDone": false,
-            "createdAt": DateTime.now().toIso8601String(),
-            "userId": userId,
-          });
+        databaseId: "65671ce4524d3c09c423",
+        collectionId: "65671d00adc039c8d679",
+        documentId: ID.unique(),
+        data: {
+          "title": title,
+          "description": description,
+          "isDone": false,
+          "createdAt": DateTime.now().toIso8601String(),
+          "userId": userId,
+        },
+      );
       return true;
     } catch (e) {
       rethrow;
@@ -92,4 +94,6 @@ class DatabaseHelper {
       rethrow;
     }
   }
+
+  uploadImageToAppwrite(File file) {}
 }

@@ -1,0 +1,12 @@
+com.example.slicing_ui_praktikum.app-jetified-window-1.0.0-beta04-0 C:\Users\ASUS\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\res
+com.example.slicing_ui_praktikum.app-jetified-annotation-experimental-1.1.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\6c0c163cc77ae6c91f9f7dfcd179c29c\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.slicing_ui_praktikum.app-core-1.6.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\res
+com.example.slicing_ui_praktikum.app-jetified-window-java-1.0.0-beta04-3 C:\Users\ASUS\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.slicing_ui_praktikum.app-main-4 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\android\app\src\main\res
+com.example.slicing_ui_praktikum.app-release-5 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\android\app\src\release\res
+com.example.slicing_ui_praktikum.app-pngs-6 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\build\app\generated\res\pngs\release
+com.example.slicing_ui_praktikum.app-resValues-7 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\build\app\generated\res\resValues\release
+com.example.slicing_ui_praktikum.app-rs-8 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\build\app\generated\res\rs\release
+com.example.slicing_ui_praktikum.app-mergeReleaseResources-9 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.slicing_ui_praktikum.app-mergeReleaseResources-10 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.slicing_ui_praktikum.app-merged_res-11 D:\my\New folder\Tugas\mobile\modul1\praktikum\slicing_ui_praktikum\build\app\intermediates\merged_res\release

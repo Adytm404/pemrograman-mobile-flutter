@@ -1,0 +1,4 @@
+#Sat Sep 30 11:08:58 ICT 2023
+base.0=D\:\\my\\New folder\\Tugas\\mobile\\modul1\\firstApp\\flutter_application_1\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
