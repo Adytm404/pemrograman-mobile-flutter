@@ -26,7 +26,8 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Add Todo"),
+        backgroundColor: Color.fromARGB(255, 128, 158, 186),
+        title: const Text("Add Activities"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

@@ -26,7 +26,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("To Do App"),
+          title: const Text("What To Do?"),
+          backgroundColor: Color.fromARGB(255, 128, 158, 186),
           actions: [
             IconButton(
               icon: const Icon(Icons.logout),
@@ -54,8 +55,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemCount: todoProvider.todos.length,
                     itemBuilder: (context, index) => Card(
                           elevation: 10,
-                          shadowColor: Colors.blueAccent,
-                          color: Colors.yellow[200],
+                          shadowColor: Colors.white30,
+                          color: Color.fromARGB(255, 222, 226, 231),
                           child: Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: Row(
@@ -113,7 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 IconButton(
                                   icon: const Icon(
                                     Icons.delete,
-                                    color: Colors.red,
+                                    color: Color.fromARGB(255, 234, 100, 90),
                                   ),
                                   onPressed: () {
                                     setState(() {

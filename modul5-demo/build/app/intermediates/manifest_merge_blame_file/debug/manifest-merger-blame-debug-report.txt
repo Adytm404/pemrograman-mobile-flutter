@@ -13,13 +13,13 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\kiara\OneDrive\Documents\Kuliah\Praktikum\clone lagi\pemrograman-mobile-flutter\modul5-demo\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\kiara\OneDrive\Documents\Kuliah\Praktikum\clone lagi\pemrograman-mobile-flutter\modul5-demo\android\app\src\debug\AndroidManifest.xml:7:22-64
 16
 17    <application
 18        android:name="android.app.Application"
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.6.0] C:\Users\ASUS\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.6.0] C:\Users\kiara\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
 22        android:label="note_keep" >
@@ -69,26 +69,26 @@
 66            android:value="2" />
 67
 68        <activity
-68-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+68-->[:url_launcher_android] C:\Users\kiara\OneDrive\Documents\Kuliah\Praktikum\clone lagi\pemrograman-mobile-flutter\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 69            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-69-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+69-->[:url_launcher_android] C:\Users\kiara\OneDrive\Documents\Kuliah\Praktikum\clone lagi\pemrograman-mobile-flutter\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 70            android:exported="false"
-70-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+70-->[:url_launcher_android] C:\Users\kiara\OneDrive\Documents\Kuliah\Praktikum\clone lagi\pemrograman-mobile-flutter\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 71            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-71-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+71-->[:url_launcher_android] C:\Users\kiara\OneDrive\Documents\Kuliah\Praktikum\clone lagi\pemrograman-mobile-flutter\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 72
 73        <uses-library
-73-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\kiara\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 74            android:name="androidx.window.extensions"
-74-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\kiara\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 75            android:required="false" />
-75-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\kiara\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 76        <uses-library
-76-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\kiara\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 77            android:name="androidx.window.sidecar"
-77-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\kiara\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 78            android:required="false" />
-78-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\kiara\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 79    </application>
 80
 81</manifest>

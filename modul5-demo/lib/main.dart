@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: const GetMaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Material App',
         home: SplashScreen(),
       ),
