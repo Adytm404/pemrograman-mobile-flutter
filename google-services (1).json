@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617333013290",
+    "project_id": "zeemovies-62ffd",
+    "storage_bucket": "zeemovies-62ffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617333013290:android:fab578d17d63287587fc53",
+        "android_client_info": {
+          "package_name": "com.zeemovies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB-r1w6Zd2tZ3NyD5VjihzfFpPsf7Np1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
