@@ -1,0 +1,4 @@
+#Wed Dec 20 12:05:47 ICT 2023
+base.0=D\:\\my\\New folder\\Tugas\\mobile\\modul5-demo\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

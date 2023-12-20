@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.second_process"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:43:5-66
+11-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:43:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.10.1] C:\Users\ASUS\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.second_process.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.10.1] C:\Users\ASUS\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.10.1] C:\Users\ASUS\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.second_process.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.10.1] C:\Users\ASUS\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.10.1] C:\Users\ASUS\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+18
+19    <application
+20        android:name="android.app.Application"
+20-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:6:9-42
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.10.1] C:\Users\ASUS\.gradle\caches\transforms-3\9c9ab1a476c120097a79d748cec7161f\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="To do Lister" >
+23-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:5:9-37
+24        <activity
+24-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:8:9-15:16
+25            android:name="com.linusu.flutter_web_auth_2.CallbackActivity"
+25-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:8:19-80
+26            android:exported="true" >
+26-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:8:81-104
+27            <intent-filter android:label="flutter_web_auth_2" >
+27-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:9:7-14:23
+27-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:9:22-56
+28                <action android:name="android.intent.action.VIEW" />
+28-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:10:9-61
+28-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:10:17-58
+29
+30                <category android:name="android.intent.category.DEFAULT" />
+30-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:11:9-68
+30-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:11:19-65
+31                <category android:name="android.intent.category.BROWSABLE" />
+31-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:12:9-70
+31-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:12:19-67
+32
+33                <data android:scheme="appwrite-callback-641767217707484d19d0" />
+33-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:13:9-73
+33-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:13:15-70
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:16:9-36:20
+37            android:name="com.example.second_process.MainActivity"
+37-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:17:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:21:13-163
+39            android:exported="true"
+39-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:18:13-36
+40            android:hardwareAccelerated="true"
+40-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:22:13-47
+41            android:launchMode="singleTop"
+41-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:19:13-43
+42            android:theme="@style/LaunchTheme"
+42-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:20:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:23:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:28:13-31:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:29:15-70
+53                android:resource="@style/NormalTheme" />
+53-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:30:15-52
+54
+55            <intent-filter>
+55-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:32:13-35:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:33:17-68
+56-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:33:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:34:17-76
+58-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:34:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:39:9-41:33
+66            android:name="flutterEmbedding"
+66-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:40:13-44
+67            android:value="2" />
+67-->D:\my\New folder\Tugas\mobile\modul5-demo\android\app\src\main\AndroidManifest.xml:41:13-30
+68
+69        <provider
+69-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+70            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+70-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+71            android:authorities="com.example.second_process.flutter.image_provider"
+71-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+72            android:exported="false"
+72-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+73            android:grantUriPermissions="true" >
+73-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+74            <meta-data
+74-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+76                android:resource="@xml/flutter_image_picker_file_paths" />
+76-->[:image_picker_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+77        </provider>
+78
+79        <activity
+79-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+80            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+80-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+81            android:exported="false"
+81-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+82            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+82-->[:url_launcher_android] D:\my\New folder\Tugas\mobile\modul5-demo\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+90
+91        <provider
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.second_process.androidx-startup"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+97                android:value="androidx.startup" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+98        </provider>
+99
+100        <receiver
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+101            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+102            android:directBootAware="false"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+103            android:enabled="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+104            android:exported="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+105            android:permission="android.permission.DUMP" >
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+107                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+110                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+113                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+116                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\36aadc6eb473a87ded89a16c724c2dd8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+117            </intent-filter>
+118        </receiver>
+119    </application>
+120
+121</manifest>

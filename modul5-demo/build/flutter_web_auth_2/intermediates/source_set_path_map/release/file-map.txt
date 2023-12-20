@@ -1,0 +1,13 @@
+com.linusu.flutter_web_auth_2-jetified-window-java-1.0.0-beta04-0 C:\Users\ASUS\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.linusu.flutter_web_auth_2-core-1.6.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.linusu.flutter_web_auth_2-browser-1.5.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\771fe64efcfbbf39a8b9ff2c8e0c6eec\transformed\browser-1.5.0\res
+com.linusu.flutter_web_auth_2-jetified-annotation-experimental-1.1.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.linusu.flutter_web_auth_2-jetified-window-1.0.0-beta04-4 C:\Users\ASUS\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.linusu.flutter_web_auth_2-main-5 C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_web_auth_2-2.1.2\android\src\main\res
+com.linusu.flutter_web_auth_2-release-6 C:\Users\ASUS\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_web_auth_2-2.1.2\android\src\release\res
+com.linusu.flutter_web_auth_2-pngs-7 D:\my\New folder\Tugas\mobile\modul5-demo\build\flutter_web_auth_2\generated\res\pngs\release
+com.linusu.flutter_web_auth_2-resValues-8 D:\my\New folder\Tugas\mobile\modul5-demo\build\flutter_web_auth_2\generated\res\resValues\release
+com.linusu.flutter_web_auth_2-rs-9 D:\my\New folder\Tugas\mobile\modul5-demo\build\flutter_web_auth_2\generated\res\rs\release
+com.linusu.flutter_web_auth_2-mergeReleaseResources-10 D:\my\New folder\Tugas\mobile\modul5-demo\build\flutter_web_auth_2\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.linusu.flutter_web_auth_2-mergeReleaseResources-11 D:\my\New folder\Tugas\mobile\modul5-demo\build\flutter_web_auth_2\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.linusu.flutter_web_auth_2-merged_res-12 D:\my\New folder\Tugas\mobile\modul5-demo\build\flutter_web_auth_2\intermediates\merged_res\release
